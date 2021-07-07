@@ -10,7 +10,7 @@ NOWTIME = now.strftime('%X')
 NUTRITIONIX_API_ID = os.environ.get('NUTRITIONIX_API_ID')
 NUTRITION_API_KEY = os.environ.get('NUTRITION_API_KEY')
 SHEETY_BASIC = os.environ.get('SHEETY_BASIC')
-LOGNAME = os.environ.get('USER')
+LOGNAME = os.environ.get('LOGNAME')
 PASSWORD = os.environ.get('SHEETY_PASS')
 
 url = "https://trackapi.nutritionix.com/v2/natural/exercise"
